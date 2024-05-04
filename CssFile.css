@@ -1,0 +1,34 @@
+.outerCont {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+}
+
+.outerCont div {
+  padding: 20px;
+  box-sizing: border-box;
+  width: 32%;
+  height: 150px;
+  background-color: #2093ff;
+  color: white;
+}
+
+@media (width < 1040px) {
+  .outerCont div {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 48%;
+    height: 150px;
+  }
+}
+
+@media (width < 540px) {
+  .outerCont div {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+  }
+}
